@@ -1,0 +1,5 @@
+<h1> Search By Positions </h1>
+
+<% positions.uniq.each do |pos| %>
+    <li><a href="/positions/<%= pos %>"><%= pos %></li></a>
+<% end %>
